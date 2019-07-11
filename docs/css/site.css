@@ -1,0 +1,13 @@
+body {
+    background: white;
+    color: black;
+}
+a {
+    color: red;
+    transition: all 0.9s;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    
+}
