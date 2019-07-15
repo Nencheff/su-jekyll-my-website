@@ -1,0 +1,14 @@
+:root {
+    --layout-width: 60em;
+
+    --font-size-body: 14px;
+    --font-size-h1: 30px;
+    --font-size-h3: 20px;
+    --font-size-paragraph: 16px;
+
+    --color-links: #004eff;
+
+    --border-color-default: #999;
+
+    --spacing-layout-elements: 1em;
+}
