@@ -11,16 +11,16 @@ html {
     font: var(--font-size-body, 14px) 'Roboto', serif;
 }
 
-@media (min-width: 600px) {
-    html {font-size: 16px; }
+@media (min-width: 500px) {
+    html {font-size: 14px; }
 }
 
-@media (min-width: 1024px) {
-    html {font-size: 18px;}
+@media (min-width: 700px) {
+    html {font-size: 16px;}
 }
 
 @media (min-width: 1600px) {
-    html {font-size: 20px;}
+    html {font-size: 18px;}
 }
 
 body, table, form, select, option, input, textarea {

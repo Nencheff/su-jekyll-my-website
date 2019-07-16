@@ -4,6 +4,68 @@
     padding: 2em;
 }
 
+.site-main h1 {
+    font-size: var(--font-size-h1);
+    text-align: center;
+    font-weight: bold;
+}
+.site-main h3 {
+    font-size: var(--font-size-h3);
+    font-style: italic;
+    font-weight: bold;
+}
+.site-main p {
+    font-size: var(--font-size-paragraph);
+}
+
+.site-main .color-variables ul{
+    border: 1px solid var(--color-border-bgrnd);
+    list-style: none outside;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: space-between;
+}
+
+.site-main .color-variables ul li{
+    color: var(--color-primary);
+    display: block;
+    padding: 1.5em;
+}
+
+.site-main .color-variables ul li h3{
+    font-style: inherit;
+}
+
+.site-main .color-variables ul li a{
+    color: var(--color-text-button);
+    background-color: var(--color-border-bgrnd);
+    border-radius: var(--border-radius-links);
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.site-main .color-variables ul li a:hover{
+    opacity: 1;
+    color:  var(--color-border-bgrnd);
+    background-color: var(--color-primary);
+}
+.site-main .font-family-variables p {
+    text-align: center;
+}
+.site-main .font-family-variables h1,
+.site-main .font-family-variables h2,
+.site-main .font-family-variables h3,
+.site-main .font-family-variables h4 {
+    font-family: var(--article-heading-font-family);
+    font-style: inherit;
+}
+.site-main .font-family-variables article p{
+    text-align: left;
+}
 @media ( min-width: 1024px ) {
     .site-header {
         display: flex;

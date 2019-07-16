@@ -9,6 +9,15 @@
     --color-links: #004eff;
 
     --border-color-default: #999;
+    --border-radius-links: 0.3em;
 
     --spacing-layout-elements: 1em;
+    
+    --color-primary : #275468;
+    --color-text-button : #ffffff;
+    --color-border-bgrnd : #FFC701;
+    
+    --article-heading-font-family: 'PT Serif';
+    --article-font-family: 'PT Sans';
+
 }
