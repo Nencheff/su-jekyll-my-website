@@ -11,3 +11,6 @@
     display: block;
     padding: 0.5em 0;
 }
+.site-nav a:first-child {
+    padding-left: 0;
+}
